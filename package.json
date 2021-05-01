@@ -1,0 +1,20 @@
+{
+  "name": "basic-form",
+  "version": "1.0.0",
+  "description": "API endpoints for basic form data collection",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sweekar Burji",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "logger": "0.0.1",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "validator": "^13.6.0"
+  }
+}
